@@ -1,0 +1,13 @@
+[package]
+authors = ["Jake Teton-Landis <jake.tl@airbnb.com>"]
+name = "rust-gif-server"
+version = "0.1.0"
+
+[dependencies]
+env_logger = "*"
+iron = "0.3"
+log = "*"
+mime = "*"
+mount = "*"
+router = "*"
+staticfile = "*"
